@@ -10,7 +10,8 @@ Visual Studio 2022 (Community edition prefered)
 
 ## Steps to Execute
 1. Download the Repo
-2. Open the BuggyCarRating-POM.sln file
+2. Extract the zip
+3. Open the BuggyCarRating-POM.sln file
 
 Before running the tests if you are wanting to run on headless mode, un-comment the arguments from the [Setup] block in the Test.cs file
 Left commented, to display a little bit on what is being automated
@@ -19,7 +20,7 @@ Left commented, to display a little bit on what is being automated
 ![image](https://user-images.githubusercontent.com/47126256/226157177-f637eebb-df9c-4416-b610-58644f925f0b.png)
 
 
-3. Click on the Test menu > Click Run All Tests
+4. Click on the Test menu > Click Run All Tests
 ![image](https://user-images.githubusercontent.com/47126256/226156820-be88c645-a709-481e-a17c-b9ea7325df09.png)
 
 Note the UserSignUpValidation is a little flakey, so if it is failing run all the tests again via 'Test > Run All Tests'
