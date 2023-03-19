@@ -36,7 +36,7 @@ I went the route of Selenium with NUnit using a Page Object Model. I would have 
 
 
 
-**Additional Important Areas to Automate**
+**Additional important areas to automate**
 
 - Automate each model has data and is correct.
 - Automate each make has data and is correct.
