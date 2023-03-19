@@ -1,6 +1,6 @@
 # BuggyCarRating-POM
 
-This repo contains the bug report as well as the automation scripts for the buggy cars application
+This repo contains the bug report as well as the automation scripts for the buggy cars website https://buggy.justtestit.org 
 
 
 ## Prerequisites 
