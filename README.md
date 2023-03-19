@@ -42,10 +42,12 @@ I went the route of Selenium with NUnit using a Page Object Model. I would have 
 - Automate each make has data and is correct.
 - Automate updating profile and validating profile page.
 
-**Improvements that can be made**
+**Improvements that can be made on the automator**
 
+- Add screenshotting of failed test runs.
+- Add better logging for failed test runs.
+- Implement a reporter so that we can visualize the test results.
 - Improve the table selector and select next page.
-- Implement reporting.
 - Implement Specflow.
 - Have some of the inputs be read by a csv file. (I.e having the username be read through a list of already known username and passwords)
 - Incorporate password encryption and decryption functionality.
