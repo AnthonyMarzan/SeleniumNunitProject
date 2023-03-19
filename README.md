@@ -2,9 +2,11 @@
 
 This repo contains the bug report as well as the automation scripts for the buggy cars application
 
+
 ## Prerequisites 
 
 Visual Studio 2022 (Community edition prefered)
+
 
 ## Steps to Execute
 1. Download the Repo
@@ -25,17 +27,18 @@ Or in the Test Explorer window that pops up during execution, right click the te
 ![image](https://user-images.githubusercontent.com/47126256/226157348-8b09945d-38b8-4699-bd8f-e953e7aad0eb.png)
 
 
+
 ## Conclusion
 I went the route of Selenium with NUnit using a Page Object Model. I would have used SpecFlow, but as there was no buisness value weighted on any of the functionality, I opted out of adding it, along with time constraints to implement it. Ideally, it would be good to have it in the future so that most users can understand what the system is doing by displaying the more readable and user-friendly steps.
 
-###**Additional Important Areas to Automate**
+**Additional Important Areas to Automate**
 
 - Automate each model has data and is correct.
 - Automate each make has data and is correct.
 - Automate update profile
 
 
-###**Improvements that can be made**
+**Improvements that can be made**
 
 - Improve the table selector and select next page.
 - Implement reporting.
