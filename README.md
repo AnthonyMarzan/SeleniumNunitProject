@@ -32,11 +32,13 @@ Or in the Test Explorer window that pops up during execution, right click the te
 I went the route of Selenium with NUnit using a Page Object Model. I would have used SpecFlow, but as there was no buisness value weighted on any of the functionality, I opted out of adding it, along with time constraints to implement it. Ideally, it would be good to have it in the future so that most users can understand what the system is doing by displaying the more readable and user-friendly steps.
 
 
+
 **Additional Important Areas to Automate**
 
 - Automate each model has data and is correct.
 - Automate each make has data and is correct.
 - Automate update profile
+
 
 
 
