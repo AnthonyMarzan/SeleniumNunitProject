@@ -15,7 +15,7 @@ Visual Studio 2022 (Community edition prefered)
 
 Before running the tests, if you want to run on headless mode, un-comment the arguments from the [Setup] block in the Test.cs file
 
-I Left it commented so that it displays a little bit of what is automated
+I left it commented so that it displays a little bit of what is automated
 
 ![image](https://user-images.githubusercontent.com/47126256/226157136-abc57345-29c6-4027-81da-3a5579ae89d7.png)
 ![image](https://user-images.githubusercontent.com/47126256/226157177-f637eebb-df9c-4416-b610-58644f925f0b.png)
