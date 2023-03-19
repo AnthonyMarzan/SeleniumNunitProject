@@ -26,7 +26,7 @@ Or in the Test Explorer window that pops up during execution, right click the te
 
 
 # Conclusion
-I went the route of Selenium with NUnit using a Page Object Model. I would have gone the route of using SpecFlow but as there was no buisness value weighted on any of the functionality I opted out of adding it, along with time contraints to implement it. Ideally it would be good to have in the future so that most users in the system can understand what the system is doing by displaying having the steps be more readable and user friendly.
+I went the route of Selenium with NUnit using a Page Object Model. I would have used SpecFlow, but as there was no buisness value weighted on any of the functionality, I opted out of adding it, along with time constraints to implement it. Ideally, it would be good to have it in the future so that most users can understand what the system is doing by displaying the more readable and user-friendly steps.
 
 **Additional Important Areas to Automate**
 
@@ -37,15 +37,13 @@ I went the route of Selenium with NUnit using a Page Object Model. I would have 
 
 **Improvements that can be made**
 
-- Improve the table selector and selecting next page.
+- Improve the table selector and select next page.
 - Implement reporting.
 - Implement Specflow.
 - Have some of the inputs be read by a csv file. (I.e having the username be read through a list of already known username and passwords)
 - Incorporate password encryption and decryption functionality.
-- Have the new logins created to output to the same csc file.
-- Try to figure out what is causing the 'Unknown Error' during register validation and in other areas.
+- Have the new logins created to output to the same csv file.
+- Determine what is causing the 'Unknown Error' during register validation and in other areas.
 - Make use of Try Catch to display better error logging.
-- Add cross-browser tests (dependant on data from your user base, stuck with chrome).
+- Add cross-browser tests (dependent on data from your user base, stuck with chrome).
 - Add a base class so other pages can inherit from it. (All menu and footer elements and methods would be contained here)
-
- 
