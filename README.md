@@ -40,7 +40,7 @@ I went the route of Selenium with NUnit using a Page Object Model. I would have 
 
 - Automate each model has data and is correct.
 - Automate each make has data and is correct.
-- Automate update profile
+- Automate updating profile and validating profile page.
 
 **Improvements that can be made**
 
