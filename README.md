@@ -30,21 +30,22 @@ I went the route of Selenium with NUnit using a Page Object Model. I would have 
 
 **Additional Important Areas to Automate**
 
-Automate each model has data and is correct.
-Automate each make has data and is correct.
-Automate update profile
+- Automate each model has data and is correct.
+- Automate each make has data and is correct.
+- Automate update profile
+
 
 **Improvements that can be made**
 
 Improve the table selector and selecting next page.
-Add reporting.
-Add Specflow for the steps to be more clear. (As there was no buisness value weighted on any of the functionality I opted out of adding specflow - Time contraint and no business weighting, Ideally it would be good to have in the future so that most users in the system can understand what the system is doing by displaying having the steps be more readable and user friendly)
-Have some of the inputs be read by a csv file. (I.e having the username be read through a list of already known username and passwords)
-Incorporate password encryption and decryption functionality.
-Have the new logins created to output to the same csc file.
-Try to figure out what is causing the 'Unknown Error' during register validation.
-Make use of Try Catch to display better error logging.
-Add cross-browser tests (dependant on data from your user base) .
-Add a base class so other pages can inherit from it. (All menu and footer elements and methods would be contained here)
+- Implement reporting.
+- Implement Specflow.
+- Have some of the inputs be read by a csv file. (I.e having the username be read through a list of already known username and passwords)
+- Incorporate password encryption and decryption functionality.
+- Have the new logins created to output to the same csc file.
+- Try to figure out what is causing the 'Unknown Error' during register validation and in other areas.
+- Make use of Try Catch to display better error logging.
+- Add cross-browser tests (dependant on data from your user base, stuck with chrome).
+- Add a base class so other pages can inherit from it. (All menu and footer elements and methods would be contained here)
 
  
