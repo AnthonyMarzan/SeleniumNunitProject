@@ -9,6 +9,7 @@ Visual Studio 2022 (Community edition prefered)
 # Steps to Execute
 1. Download the Repo
 2. Open the BuggyCarRating-POM.sln file
+
 Before running the tests if wanting to run on headless un-comment the arguments from the [Setup] block in the Test.cs file
 
 ![image](https://user-images.githubusercontent.com/47126256/226157136-abc57345-29c6-4027-81da-3a5579ae89d7.png)
