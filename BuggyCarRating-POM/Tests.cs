@@ -21,7 +21,8 @@ namespace BuggyCarRating_POM
         {
             new DriverManager().SetUpDriver(new ChromeConfig());
             ChromeOptions chromeOptions = new ChromeOptions();
-            Driver = new ChromeDriver();
+            //chromeOptions.AddArguments("headless");
+            Driver = new ChromeDriver(chromeOptions);
             Driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
             Driver.Navigate().GoToUrl(BaseUrl);
             Assert.That(Driver.Title, Is.EqualTo("Buggy Cars Rating"));
@@ -141,7 +142,7 @@ namespace BuggyCarRating_POM
 
         //Test User Register Validation
         [Test]
-        public void UserRegistryValidation()
+        public void UserSignUpValidation()
         {
             HomePage homePage = new HomePage(Driver);
             RegisterPage registerPage = new RegisterPage(Driver);
