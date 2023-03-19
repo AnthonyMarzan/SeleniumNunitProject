@@ -37,7 +37,7 @@ I went the route of Selenium with NUnit using a Page Object Model. I would have 
 
 **Improvements that can be made**
 
-Improve the table selector and selecting next page.
+- Improve the table selector and selecting next page.
 - Implement reporting.
 - Implement Specflow.
 - Have some of the inputs be read by a csv file. (I.e having the username be read through a list of already known username and passwords)
