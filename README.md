@@ -13,8 +13,9 @@ Visual Studio 2022 (Community edition prefered)
 2. Extract the zip
 3. Open the BuggyCarRating-POM.sln file
 
-Before running the tests if you are wanting to run on headless mode, un-comment the arguments from the [Setup] block in the Test.cs file
-Left commented, to display a little bit on what is being automated
+Before running the tests, if you want to run on headless mode, un-comment the arguments from the [Setup] block in the Test.cs file
+
+I Left it commented so that it displays a little bit of what is automated
 
 ![image](https://user-images.githubusercontent.com/47126256/226157136-abc57345-29c6-4027-81da-3a5579ae89d7.png)
 ![image](https://user-images.githubusercontent.com/47126256/226157177-f637eebb-df9c-4416-b610-58644f925f0b.png)
@@ -23,14 +24,15 @@ Left commented, to display a little bit on what is being automated
 4. Click on the Test menu > Click Run All Tests
 ![image](https://user-images.githubusercontent.com/47126256/226156820-be88c645-a709-481e-a17c-b9ea7325df09.png)
 
-Note the UserSignUpValidation is a little flakey, so if it is failing run all the tests again via 'Test > Run All Tests'
-Or in the Test Explorer window that pops up during execution, right click the test you want to run and click 'Run'
+Note the UserSignUpValidation is a little flakey, so if it is failing, run all the tests again via 'Test > Run All Tests'.
+
+Or, in the Test Explorer window that pops up during execution, right-click the test you want to run and click 'Run'
 ![image](https://user-images.githubusercontent.com/47126256/226157348-8b09945d-38b8-4699-bd8f-e953e7aad0eb.png)
 
 
 
 ## Conclusion
-I went the route of Selenium with NUnit using a Page Object Model. I would have used SpecFlow, but as there was no buisness value weighted on any of the functionality, I opted out of adding it, along with time constraints to implement it. Ideally, it would be good to have it in the future so that most users can understand what the system is doing by displaying the more readable and user-friendly steps.
+I went the route of Selenium with NUnit using a Page Object Model. I would have used SpecFlow, but as there was no business value weighted on any of the functionality, I opted out of adding it, along with time constraints to implement it. Ideally, it would be good to have it in the future so that most users can understand what the system is doing by displaying the more readable and user-friendly steps.
 
 
 
